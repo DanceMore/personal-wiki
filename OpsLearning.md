@@ -4,6 +4,8 @@
 
 Google SRE Book: https://sre.google/sre-book/table-of-contents/
 
+https://en.wikipedia.org/wiki/Unix_philosophy
+
 ### these are all recommended by the r/sysadmin community
 
 Incomplete wikibook full of fundamentals: https://www.opsschool.org/
