@@ -2,13 +2,13 @@
 
 ## General Resources
 
+Google SRE Book: https://sre.google/sre-book/table-of-contents/
+
 ### these are all recommended by the r/sysadmin community
 
-Incomplete wikibook full of fundamentals: http://www.opsschool.org/en/latest/
+Incomplete wikibook full of fundamentals: https://www.opsschool.org/
 
-Linode's quickstart guide: https://library.linode.com/using-linux/administration-basics
-
-Learn Linux the Hard Way: http://nixsrv.com/llthw
+Linode's quickstart guide: https://www.linode.com/docs/guides/linux-system-administration-basics/
 
 SAGE Job Descriptions: http://www.phys.ufl.edu/~chandra/jobs-descriptions.html
 
@@ -18,31 +18,23 @@ SAGE Job Descriptions: http://www.phys.ufl.edu/~chandra/jobs-descriptions.html
 
 **do not learn Rails first. you don't need much Ruby to be extremely effective in Rails but you need to know a lot of Ruby to debug anything that goes wrong.**
 
-http://learnrubythehardway.org/book/
+https://learnrubythehardway.org/book/
 
 http://poignant.guide/
 
 ### Python
 
-http://learnpythonthehardway.org/
+https://learnpythonthehardway.org/
 
-## Technologies we Use
+## Learn Git and optionally vim
 
-### Linux
+### Git
+http://git-scm.com/
 
-https://linuxjourney.com/
+Version control system for code
 
-### Puppet
-http://puppetlabs.com/
-
-Configuration enforcement engine: write code to configure fleets of servers! The "magic" happens here.
-
-* CERN Keynote: http://youtu.be/-Ykb2j2ojYU **[required]**
-* CERN: http://youtu.be/ehVMxbJdld8
-* Wikimedia: http://youtu.be/Scu9tt49fBU
-* _uncurated, watch some of these, update if you find particularly good ones_
-* http://puppetlabs.com/blog/watch-and-learn-puppetconf-2012-videos
-* http://puppetlabs.com/resources/puppetconf-2013
+* https://github.com/Gazler/githug **[required]**
+* https://nvie.com/posts/a-successful-git-branching-model/
 
 ### Vim
 http://www.vim.org/
@@ -51,30 +43,27 @@ It's an editor.  The tools below will make your life easier if you use it.
 
 * https://github.com/tpope/vim-pathogen
 * https://github.com/scrooloose/syntastic
-* gem install puppet-lint - This will make vim detect simple Puppet syntax/style errors.
 
-### TheForeman
-http://theforeman.org/
-
-System deployment / management system: installs operating systems over the network and provides Puppet with data that drives configuration decisions.
-
-* http://youtu.be/AeVVezzZ-4w
+## Learn some other stuff !?
 
 ### Logstash
-http://www.logstash.net/
+https://www.elastic.co/logstash/
 
 Log aggregation, manipulation and graphing!
 
-* http://www.youtube.com/watch?v=RuUFnog29M4
-* http://www.youtube.com/watch?v=fwMnb4-t8vo
+* https://www.youtube.com/watch?v=RuUFnog29M4
+* https://www.youtube.com/watch?v=fwMnb4-t8vo
 
-### Git
-http://git-scm.com/
+### Puppet
+Puppet is/was a Configuration Enforcement Engine: `write code to configure fleets of servers! The "magic" happens here.`
 
-Version control system for code
+However, Puppet and Chef have mostly been obsoleted by Containers + k8s. it is perhaps still useful to remember
+where we started and how much of the world is still running systems.
 
-* https://github.com/Gazler/githug **[required]**
-* http://nvie.com/posts/a-successful-git-branching-model/
+* CERN Keynote: https://youtu.be/-Ykb2j2ojYU **[required]**
+* CERN: https://youtu.be/ehVMxbJdld8
+* Wikimedia: https://youtu.be/Scu9tt49fBU
+* TheForeman: https://youtu.be/AeVVezzZ-4w
 
 ### Stuff to Make You Smarter
 
@@ -104,6 +93,16 @@ Version control system for code
 * "Cloud Native Part 1: Definition": https://blog.heptio.com/cloud-native-part-1-definition-716ed30e9193#.t88ygx1gy
 * "Cloud Native Part 3: DevOps": https://blog.heptio.com/cloud-native-part-3-6f9d888c5f07#.gz6ie0dzg
 * "Cloud Native Part 5: Microservices": https://blog.heptio.com/cloud-native-part-5-1c1106a4caf8#.glkj2lcmm
+
+# new for 2021
+all from Patron Saint of SREs, Bryan Cantrill...
+
+* "Debugging Under Fire: Keep your Head when Systems have Lost their Mind": https://www.youtube.com/watch?v=30jNsCVLpAE
+* "The Container Revolution: Reflections After the First Decade": https://www.youtube.com/watch?v=xXWaECk9XqM
+* "Oral Tradition in Software Engineering": https://youtu.be/4PaWFYm0kEw?t=22
+* "Zebras All the Way Down": https://youtu.be/fE2KDzZaxvE
+* "Was He Wright All Along? Software After Moore's Law": https://www.youtube.com/watch?v=TM9h89Vo_Qo
+* "Fork Yeah! The Rise and Development of illumos": https://www.youtube.com/watch?v=-zRN7XLCRhc (this contains the famous Rant Against Oracle ...)
 
 ### Lore
 * "The Case of the 500 Mile Email": http://www.ibiblio.org/harris/500milemail.html
