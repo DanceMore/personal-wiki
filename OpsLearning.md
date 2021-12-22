@@ -97,6 +97,12 @@ where we started and how much of the world is still running systems.
 * "Cloud Native Part 5: Microservices": https://blog.heptio.com/cloud-native-part-5-1c1106a4caf8#.glkj2lcmm
 
 # new for 2021
+
+the devsecops revolution
+
+* "DoD DevSecOps Reference Design": https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf
+* "How the Department of Defense Moved to Kubernetes and Istio": https://www.youtube.com/watch?v=YjZ4AZ7hRM0
+
 all from Patron Saint of SREs, Bryan Cantrill...
 
 * "Debugging Under Fire: Keep your Head when Systems have Lost their Mind": https://www.youtube.com/watch?v=30jNsCVLpAE
