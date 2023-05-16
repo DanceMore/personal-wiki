@@ -7,4 +7,6 @@ passed amongst engineers and SREs as a Buddhist like way of sharing wisdom succi
 
 1. perfect is the enemy of good
 
+alternatively: don't let perfection get in the way of good enough
+
 ```
