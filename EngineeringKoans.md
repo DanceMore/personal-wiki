@@ -9,4 +9,7 @@ passed amongst engineers and SREs as a Buddhist like way of sharing wisdom succi
 
 alternatively: don't let perfection get in the way of good enough
 
+2. simple things should be easy; difficult things should be possible.
+
+n: sometimes, total complexity in your system cannot be reduced, it can only be re-arranged. however, proper ordering of the complexity can still reduce your pain.
 ```
