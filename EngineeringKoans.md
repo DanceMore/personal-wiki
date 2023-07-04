@@ -13,3 +13,10 @@ alternatively: don't let perfection get in the way of good enough
 
 n: sometimes, total complexity in your system cannot be reduced, it can only be re-arranged. however, proper ordering of the complexity can still reduce your pain.
 ```
+
+
+```
+the wisdom of software from the enlightened intern
+
+all software sucks; so pick what sucks the least for the problem at hand.
+````
