@@ -1,0 +1,38 @@
+arnold - m4
+cliffe - m4/ak
+- crusher - auto-shotgun
+gunner - galil, ak
++ kurt - galil, krieg
++ kyle - sniper (scout/awp), seems harder than vitaliy
+- minh - p90 (mp9/mac10 eco)
+- moe - auto-shotgun
+quintin - galil, ak
+- rock - para
++ shark - aug
++ stone - galil, krieg
+vitaliy - sniper (scout/awp)
+zach - m4
+
+
+# dream team
+kurt
+kyle
+shark
+stone
+zach
+
+# breakfast club
+crusher
+minh
+moe
+rock +
+
+
+
+# playing CT
+bot_add_t kurt; bot_add_ct crusher; bot_add_t kyle; bot_add_ct minh; bot_add_t shark; bot_add_ct moe; bot_add_t stone; bot_add_ct rock; bot_add_t zach;
+
+# playing T
+bot_add_ct kurt; bot_add_t crusher; bot_add_t kyle; bot_add_ct minh; bot_add_t shark; bot_add_ct moe; bot_add_t stone; bot_add_ct rock; bot_add_t zach;
+
+

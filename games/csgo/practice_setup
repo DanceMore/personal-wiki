@@ -1,0 +1,57 @@
+# RADAR
+cl_radar_always_centered 1;
+cl_radar_scale 0.7;
+cl_hud_radar_scale 1;
+cl_radar_icon_scale_min 0.6;
+cl_radar_rotate 1;
+cl_radar_square_with_scoreboard 1
+
+# CROSSHAIR
+cl_crosshairstyle 4;
+cl_crosshairsize 1;
+cl_crosshairgap -1;
+cl_crosshairthickness 0;
+cl_crosshair_drawoutline 1;
+cl_crosshaircolor 1;
+
+# COMMON
+mp_maxmoney 60000;
+mp_startmoney 60000;
+
+sv_cheats 1;
+ammo_grenade_limit_total 5;
+sv_grenade_trajectory 1;
+sv_grenade_trajectory_time 10;
+sv_showimpacts 1;
+sv_showimpacts_time 10;
+
+bot_difficulty expert;
+ bot_quota 0;
+ mp_autoteambalance 0;
+ mp_limitteams 0;
+ mp_warmuptime 40;
+ bot_kick;
+
+# playing CT
+ bot_add_t kurt;
+ bot_add_t kyle;
+ bot_add_t shark;
+ bot_add_t stone;
+ bot_add_t zach;
+ bot_add_ct crusher;
+ bot_add_ct minh;
+ bot_add_ct moe;
+
+# playing T
+ bot_add_ct kurt;
+ bot_add_ct kyle;
+ bot_add_ct shark;
+ bot_add_ct stone;
+ bot_add_ct zach;
+ bot_add_t crusher;
+ bot_add_t minh;
+ bot_add_t moe;
+
+mp_maxmoney 60000;
+mp_startmoney 60000;
+bot_kick;
