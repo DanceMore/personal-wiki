@@ -1,0 +1,5 @@
+As it turns out, humans are terrible at randomness.
+
+...
+
+So, what’s our solution to this? Take the human element out of it. We have developed a password generation service for our employees built on Diceware, which randomly pulls from a dictionary of thousands of words and assigns a passphrase that meets our entropy requirements based on the employee’s role

@@ -1,0 +1,8 @@
+    Expires all reports regardless of their status
+
+    rake reports:expire days=7 RAILS_ENV="production" 
+
+    expires all non interesting reports after one day
+
+    rake reports:expire days=1 status=0 RAILS_ENV="production" 
+

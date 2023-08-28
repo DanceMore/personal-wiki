@@ -1,0 +1,36 @@
+# obtain recovery media
+#   needs kernel 3.2+, cryptsetup/luks, mdraid
+#   rsync
+
+# wire in new-hdd
+
+# boot from recovery media
+
+# partition new-hdd
+1TB => cut first 500GB for OS
+
+# attempt to clone old-hdd into empty space on new-hdd
+gparted?? dd?? rsync??
+
+# install bootloader on new-hdd
+
+# unwire old-hdd
+
+# boot from new-hdd
+
+### if old-hdd cannot be recovered...
+
+# partition new-hdd
+1TB entirely for OS
+
+# install Debian Jessie
+
+### once OS is functional again...
+
+# inspect RAID array
+mdadm --examine /dev/sd[a-z] | egrep 'Event|/dev/sd'
+
+# event count increments during writes, should be +/- 50
+
+# attempt to assemble, add --force if needed
+mdadm --assemble missing /dev/sdc /dev/sdd /dev/sde
