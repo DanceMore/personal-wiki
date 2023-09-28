@@ -11,6 +11,8 @@ alternatively: don't let perfection get in the way of good enough
 
 2. simple things should be easy; difficult things should be possible.
 
+3. code exists for humans to read and machines to run.
+
 n: sometimes, total complexity in your system cannot be reduced, it can only be re-arranged. however, proper ordering of the complexity can still reduce your pain.
 ```
 
