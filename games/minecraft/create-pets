@@ -1,0 +1,3 @@
+/summon cat ~ ~ ~ {CatType:4, CollarColor:11, CustomName:"\"Merlin\"", Owner:<redacted>, Invulnerable:1}
+
+/summon wolf ~ ~ ~ {CollarColor:9, CustomName:"\"Crystal\"", Owner:<redacted>, Invulnerable:1}
