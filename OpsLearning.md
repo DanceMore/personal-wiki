@@ -112,6 +112,16 @@ all from Patron Saint of SREs, Bryan Cantrill...
 * "Was He Wright All Along? Software After Moore's Law": https://www.youtube.com/watch?v=TM9h89Vo_Qo
 * "Fork Yeah! The Rise and Development of illumos": https://www.youtube.com/watch?v=-zRN7XLCRhc (this contains the famous Rant Against Oracle ...)
 
+# essential tech talks for the modern era (2024+)
+* https://medium.com/@cfatechblog/edge-computing-at-chick-fil-a-7d67242675e2
+* https://medium.com/@cfatechblog/bare-metal-k8s-clustering-at-chick-fil-a-scale-7b0607bd3541
+* https://www.youtube.com/watch?v=xXWaECk9XqM
+* https://www.youtube.com/watch?v=fE2KDzZaxvE
+* https://www.youtube.com/watch?v=30jNsCVLpAE
+* https://www.youtube.com/watch?v=-zRN7XLCRhc
+* https://www.youtube.com/watch?v=bM0PmwOlifE
+
+
 ### Lore
 * "The Case of the 500 Mile Email": http://www.ibiblio.org/harris/500milemail.html
 * "The Story of Mel": http://www.catb.org/jargon/html/story-of-mel.html
